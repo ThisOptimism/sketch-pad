@@ -1,6 +1,7 @@
 #topBar {
   background-color: orange;
   height: 108px;
+  border-bottom: 1px black solid;
   }
 
 body {
@@ -37,6 +38,7 @@ h1 {
   margin-right: 10px;
   border-radius: 20px;
   cursor: pointer;
+  border: 3px black hidden;
 }
 
 #button button:hover {
