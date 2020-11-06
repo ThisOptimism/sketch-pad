@@ -1,0 +1,44 @@
+#topBar {
+  background-color: orange;
+  height: 108px;
+  }
+
+body {
+  box-sizing: border-box;
+  background-color: lightblue;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+h1 {
+  color: lightgreen;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+#container {
+  border: 5px black solid;
+  background-color: white;
+  width: 600px;
+  height: 600px;
+  margin: 50px auto;
+  box-shadow: 0px 6px 20px 3px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 0px 6px 20px 3px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 6px 20px 3px rgba(0,0,0,0.69)
+}
+
+#button {
+  text-align: center;
+}
+
+#button button {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#button button:hover {
+  background-color: white
+}
