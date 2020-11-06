@@ -74,13 +74,12 @@ const gridButton = document.createElement("button");
 gridButton.id = "gridButton";
 gridButton.textContent ="Set New Grid";
 gridButton.addEventListener("click", () => {
-  let numb = window.prompt("enter your favorit grid size.", "16-50");
+  let numb = window.prompt("enter your favorit grid size.", "enter a number - 16 - 50");
   if (numb >= 16 && numb <= 50) {
     container.innerHTML = "";
     grid(numb)
   } else {
     alert("type 16 - 50!")
-    grid()
   }
 })
 button.appendChild(gridButton)
